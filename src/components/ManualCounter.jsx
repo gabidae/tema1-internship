@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./ManualCounter.css"
-
+import "./ManualCounter.css";
 
 const ManualCounter = () => {
-  const[manualCounter, setManualCounter] = useState(0);
+  const [manualCounter, setManualCounter] = useState(0);
 
   const handlePlus = () => {
     if (manualCounter < 10) {
@@ -11,20 +10,19 @@ const ManualCounter = () => {
     }
   };
 
-
   const handleMinus = () => {
     if (manualCounter > 0) {
-      setManualCounter(manualCounter -1);
+      setManualCounter(manualCounter - 1);
     }
   };
 
-  const popUp = ["Oops! It seems that you can't count more then 10!"]
+  const popUp = ["It seems that you can't count more then 10!"];
 
   const alertPopUP = () => {
     if (manualCounter === 10) {
-      return (popUp)
-  }
-}
+      return popUp;
+    }
+  };
 
   return (
     <div>
@@ -38,8 +36,4 @@ const ManualCounter = () => {
   );
 };
 
-
-
-
-
-export default ManualCounter
+export default ManualCounter;

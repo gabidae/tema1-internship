@@ -5,7 +5,7 @@
   border-right: 1px solid rgb(42, 132, 165);
   margin: 0 auto;
   padding: 0px;
-  background-color: rgb(215, 232, 250);
+  background-color: #904e55;
 }
 .suggestions li {
   padding: 5px 0px 5px 5px;
@@ -14,10 +14,10 @@
   cursor: pointer;
 }
 .suggestions li:hover {
-  background-color: rgb(42, 138, 165);
+  background-color: #eaf0ce;
 }
 .autocomplete {
-  border: 2px solid rgb(42, 91, 165);
+  border: 2px solid #496f5d;
   border-radius: 5px;
   padding: 12px;
   font-size: 24px;
