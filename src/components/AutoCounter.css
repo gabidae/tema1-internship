@@ -1,0 +1,14 @@
+.autoCounter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  color: #904e55;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 100px;
+}
+
+.autoCounter h1 {
+  color: #2d2a32;
+}

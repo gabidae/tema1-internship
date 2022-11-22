@@ -1,0 +1,31 @@
+.buttonContainer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+button {
+  background-color: #496f5d;
+  width: 40px;
+  height: 40px;
+  outline-color: none;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #2d2a32;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: #eaf0ce;
+}
+
+.popUp {
+  margin-top: 30px;
+  color: #904e55;
+  font-weight: 900;
+}

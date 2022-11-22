@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #c0c5c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
